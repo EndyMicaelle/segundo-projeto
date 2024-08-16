@@ -29,17 +29,17 @@ input {
     width: 40px;
     height: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column; 
+    justify-content: space-between; /* é usada para alinhar os elementos */
     position: relative;
     
 }
 
 .hamburguer:hover .linha:nth-child(1) {
-    transform: rotate(45deg);
+    transform: rotate(45deg); /* Gira a linha 1 */
     position: absolute;
-    top: 12px;
-    transition: 1s;
+    top: 12px; /* altura do elemento */
+    transition: 1s; /* tempo da animação */
 }
 
 .hamburguer:hover .linha:nth-child(2) {
@@ -49,7 +49,7 @@ input {
 .hamburguer:hover .linha:nth-child(3) {
     transform: rotate(-45deg);
     position: absolute;
-    bottom: 6px;
+    bottom: 6px; /* base do elemento */
     transition: 1s;
 }
 
